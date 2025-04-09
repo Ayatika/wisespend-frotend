@@ -1,0 +1,65 @@
+ .nav{
+    width: 100% !important;
+    height: 55px !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding-left: 10px !important;
+    padding-right: 40px !important;
+ }
+
+.nav h2{
+    color: orangered;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 5px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.nav .userData{
+    display: flex !important;
+    align-items: center !important;
+    background-color: white !important;
+    border: 1px solid rgb(175, 175, 175) !important;
+    box-shadow: 1px 1px 2px rgb(167, 167, 167) !important;
+    padding: 5px !important;
+    border-radius: 100px !important;
+    cursor: pointer !important;
+    position: relative !important;
+}
+.nav .userData .userImage{
+    border-radius: 100px;
+    background-color: rgb(0, 191, 255);
+    width: 28px;
+    height: 28px;
+    margin-left: 5px;
+}
+
+.navModal{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(172, 172, 172);
+    right: 0px;
+    top: 40px;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.navModal p{
+    width: 100%;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.navModal p:hover{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    background-color: rgb(219, 219, 219);
+}
